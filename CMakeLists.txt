@@ -55,6 +55,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     hardware_i2c
     hardware_pwm
     hardware_pio
+    hardware_clocks
 )
 
 # Habilitar saída USB e desabilitar UART
